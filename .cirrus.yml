@@ -5,8 +5,7 @@ env:
 
 task:
   name: Test
-  skip: $CIRRUS_BRANCH == '
-j5y17lte-LineageOS-lineage-17.1-vytska69'
+  skip: $CIRRUS_BRANCH == 'j5y17lte-LineageOS-lineage-17.1-vytska69'
   only_if: $CIRRUS_REPO_OWNER == 'Batuhantrkgl'
   timeout_in: 2m
   persistent_worker:
