@@ -15,7 +15,7 @@ task:
       container:
         image: apon77/aosp:cirrus
         cpu: 2
-        memory: 4G
+        memory: 16G
 
   env_script:
     - env
@@ -196,7 +196,7 @@ task:
       container:
         image: apon77/aosp:cirrus
         cpu: 2
-        memory: 4G
+        memory: 16G
 
   post_build_script:
     - set -e
